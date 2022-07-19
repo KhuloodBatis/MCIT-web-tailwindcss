@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./public/**/*.{html,js}"],
+    content: ["./public/**/*.{html,js}", "./components/**/*.{js,ts,jsx,tsx}", ],
     theme: {
         extend: {
             fontFamily: {
-                "Cairo": ["Cairo", "sans-serif"]
+                'bukra1': ['BUKRA', 'regular'],
+                'adelia': ['ADELIA', 'cursive']
+
             },
             colors: {
                 firstBtn: "#4364A1",
@@ -20,7 +22,10 @@ module.exports = {
 
 
             },
+
+
         },
     },
     plugins: [],
+
 }

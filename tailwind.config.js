@@ -5,8 +5,9 @@ module.exports = {
         extend: {
             fontFamily: {
                 'bukra1': ['BUKRA', 'regular'],
-                'adelia': ['ADELIA', 'cursive']
-
+                'adelia': ['ADELIA', 'cursive'],
+                // bukra2: ["bukra", "Regular"]
+                'sans': ['bukra', 'Helvetica', 'Arial', 'sans-serif']
             },
             colors: {
                 firstBtn: "#4364A1",
@@ -19,6 +20,7 @@ module.exports = {
                 fontColor2: "#575756",
                 bgColor1: "#FAFAFA",
                 fourthBtn: "#13378E",
+                greenColor: "#01DAE2"
 
 
             },
@@ -27,6 +29,16 @@ module.exports = {
         },
     },
     plugins: [require("daisyui")],
+    daisyui: {
+        styled: true,
+        themes: [],
+        base: true,
+        utils: true,
+        logs: true,
+        rtl: false,
+        prefix: "",
+        darkTheme: "light",
+    },
 
 
 }

@@ -1,12 +1,50 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
-@font-face {
-    font-family: 'BUKRA';
-    src: url('./font/BUKRA.ttf');
+.pag {
+    @apply flex justify-center w-full gap-2 mt-10
 }
+
+
+/* .pag a:hover {
+    @apply w-10 bg-fontColor1
+} */
+
+.pag a:active {
+    @apply w-10 bg-fontColor1 !important
+}
+
+@tailwind utilities;
+
+/* @font-face {
+    font-family: 'BUKRA';
+    src: url('./public/css/font/29LT\ Bukra-Bold.woff');
+} */
 
 @font-face {
     font-family: 'ADELIA';
     src: url('./font/ADELIA.otf');
+}
+
+@font-face {
+    font-family: 'bukra';
+    src: url('./font/29LTBukra-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bukra';
+    src: url('./font/29LTBukra-Md.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bukra';
+    src: url('./font/29LTBukra-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+    font-display: swap;
 }

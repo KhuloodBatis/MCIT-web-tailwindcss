@@ -1,18 +1,5 @@
 @tailwind base;
 @tailwind components;
-.pag {
-    @apply flex justify-center w-full gap-2 mt-10
-}
-
-
-/* .pag a:hover {
-    @apply w-10 bg-fontColor1
-} */
-
-.pag a:active {
-    @apply w-10 bg-fontColor1 !important
-}
-
 @tailwind utilities;
 
 /* @font-face {

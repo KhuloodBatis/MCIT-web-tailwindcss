@@ -4,7 +4,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                'bukra1': ['BUKRA', 'regular'],
+                // 'bukra1': ['BUKRA', 'regular'],
                 'adelia': ['ADELIA', 'cursive'],
                 // bukra2: ["bukra", "Regular"]
                 'sans': ['bukra', 'Helvetica', 'Arial', 'sans-serif']
@@ -13,7 +13,7 @@ module.exports = {
                 firstBtn: "#4364A1",
                 middBtn: "#6181B7",
                 secondBtn: "#4364A1",
-                thirdBtn: "#318EBA",
+                thirdBtn: "#2D77A2",
                 hoverBtn: "#25ADD7",
                 hoverBtn2: "#0888AF",
                 fontColor1: "#273C7B",
@@ -21,8 +21,9 @@ module.exports = {
                 bgColor1: "#FAFAFA",
                 fourthBtn: "#13378E",
                 greenColor: "#01DAE2"
-
-
+            },
+            screens: {
+                'xsm': '412px'
             },
 
 

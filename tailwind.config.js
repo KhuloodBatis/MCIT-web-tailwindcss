@@ -20,7 +20,9 @@ module.exports = {
                 fontColor2: "#575756",
                 bgColor1: "#FAFAFA",
                 fourthBtn: "#13378E",
-                greenColor: "#01DAE2"
+                greenColor: "#01DAE2",
+                dividerColor: "#009ABA",
+                bgfiel: "#0000002B",
             },
             screens: {
                 'xsm': '412px'

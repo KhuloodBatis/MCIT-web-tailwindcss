@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl" lang="ar">
 
 <head>
     <meta charset="UTF-8">
@@ -20,7 +20,7 @@
             </div> -->
             <div class=" relative flex justify-center  bg-white  h-10  lg:h-32  mb-52  drop-shadow-lg w-96 md:w-[800px] lg:w-[2000px] xl:w-[10000px] ">
                 <img src="../img/mcit-logo.png" alt=" " class="w-16 h-7 md:h-7 lg:h-20  md:w-24 lg:w-72 m-2 lg:mt-5 lg:m-0 mr-32 md:mr-[300px] lg:mr-[900px] ">
-                <img src="../img/Group 454.png" alt=" " class=" absolute  h-[850px] md:h-[1200px] lg:h-40 xl:h-[1950px]  w-48 md:w-96 lg:w-auto  ml-[310px] md:ml-[500px]  lg:ml-[1350px] xl:ml-[2300px] ">
+                <img src="../img/Group 454.png" alt=" " class=" absolute  h-[850px] md:h-[1200px] lg:h-40 xl:h-[1950px]  w-48 md:w-96 lg:w-auto  ml-[310px] md:ml-[500px]  lg:ml-[1300px] xl:ml-[2300px] 2xl:ml-[3300px] ">
 
             </div>
 
@@ -34,86 +34,98 @@
         <form>
             <div class="flex flex-col mb-10 lg:mb-32">
                 <h1 class="text-center text-sm md:text-xl lg:text-7xl text-fontColor1 mb-5 lg:mb-20 lg:mt-20 "> استمارة تقديم جهة طلب</h1>
-                <span class="ml-16 md:ml-40 lg:ml-[500px]  w-14 md:w-20 lg:w-60  p-0.5 bg-dividerColor h-1/2 md:h-1 lg:h-2 mb-10 "></span>
+                <span class="mr-16 md:mr-40 lg:mr-[500px]  w-14 md:w-20 lg:w-60  p-0.5 bg-dividerColor h-1/2 md:h-1 lg:h-2 mb-10 "></span>
                 <!-- ـــ -->
                 <h1 class="text-right text-sm md:text-sm lg:text-3xl text-fontColor1 mb-3 lg:mb-5  lg:mt-20 "> اسم منشأتك</h1>
-                <input type="text" id="large-input" class="block p-4 md:w-[400px] lg:w-full h-5 md:h-10 lg:h-20 shadow-inner shadow-gray-300 text-gray-700 bg-gray-700 rounded-sm  sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-100  dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-10">
+                <input type="text" id="large-input" class="block p-4 md:w-[400px] lg:w-full h-5 md:h-10 lg:h-20 shadow-inner shadow-gray-300 text-gray-700 bg-gray-700 rounded-sm  sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-100  dark:placeholder-gray-textext-textColor dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-10">
                 <!-- _______ -->
-                <h1 class="text-right text-sm md:text-sm lg:text-3xl text-fontColor1 mb-3 lg:mb-5  lg:mt-20 "> لأي قطاع من القطاعات التالية تنتمي منشأتك؟</h1>
+                <h1 class="text-right text-sm md:text-sm lg:text-3xl text-fontColor1 mb-5 lg:mb-5  lg:mt-20  "> لأي قطاع من القطاعات التالية تنتمي منشأتك؟</h1>
                 <!-- ــــــ -->
                 <fieldset>
-                    <legend class="sr-only flex justify-start ml-60">Countries</legend>
+                    <legend class="sr-only   justify-start ml-60 mt-5">Countries</legend>
+                    <div class="flex flex-wrap mt-10">
+                        <div class="flex  items-center mb-2 md:mb-2 lg:mb-10  ">
 
-                    <div class="flex items-right mb-4">
-                        <label for="country-option-1" class="block  text-sm font-medium text-gray-900 dark:text-gray-300 ">
-                            United States
-                          </label>
-                        <input id="country-option-1" type="radio" name="countries" value="USA" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" checked>
+                            <input id="country-option-1" type="radio" name="countries" value="USA" class="lg:w-8 lg:h-8 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" checked>
+                            <label for="country-option-1" class="block  lg:text-3xl font-medium text-black dark:text-gray-700 mr-8  ml-3 lg:ml-[350px] ">
+                                الطاقة
+                               </label>
+                        </div>
+                        <div class="flex items-center mb-0 md:mb-2 lg:mb-10 md:mr-[140px] lg:mr-20">
+
+                            <input id="country-option-2" type="radio" name="countries" value="USA" class="lg:w-8 lg:h-8 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" checked>
+                            <label for="country-option-2" class="block  lg:text-3xl font-medium text-black dark:text-gray-700 mr-8 ">
+                            الصناعة
+                               </label>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap mt-0 md:mt-10">
+                        <div class="flex  items-center mb-2 md:mb-10  ">
+
+                            <input id="country-option-3" type="radio" name="countries" value="USA" class="lg:w-8 lg:h-8 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" checked>
+                            <label for="country-option-3" class="block  lg:text-3xl font-medium text-black dark:text-gray-700 mr-8 ml-2 lg:ml-[177px] ">
+                          القطاع اللوجيستي 
+                               </label>
+                        </div>
+                        <div class="flex items-center  mb-2 lg:mb-10 md:mr-14 lg:mr-20">
+
+                            <input id="country-option-4" type="radio" name="countries" value="USA" class="lg:w-8 lg:h-8 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" checked>
+                            <label for="country-option-4" class="block  lg:text-3xl font-medium text-black dark:text-gray-700 mr-8 ">
+                            التجارة والتجزئة
+                               </label>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap lg:mt-10">
+                        <div class="flex  items-center mb-2 lg:mb-10  ">
+
+                            <input id="country-option-5" type="radio" name="countries" value="USA" class="lg:w-8 lg:h-8 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" checked>
+                            <label for="country-option-5" class="block  lg:text-3xl font-medium text-black dark:text-gray-700 mr-8  lg:ml-[135px] ">
+                         السياحة والحج والعمرة
+                               </label>
+                        </div>
+                        <div class="flex items-center mb-2 lg:mb-10 md:mr-10 lg:mr-20">
+
+                            <input id="country-option-6" type="radio" name="countries" value="USA" class="lg:w-8 lg:h-8 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" checked>
+                            <label for="country-option-6" class="block  lg:text-3xl font-medium text-black dark:text-gray-700 mr-8 ">
+                            التعليم
+                               </label>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center mb-10 md:mt-7">
+
+                        <input id="country-option-1" type="radio" name="countries" value="USA" class="lg:w-8 lg:h-8 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" checked>
+                        <!-- <label for="country-option-1" class="block  lg:text-3xl font-medium text-gray-500 dark:text-gray-500 mr-8 ">
+                        أخرى..
+                           </label> -->
+                        <input type="text" id="large-input" class="block text-right p-4 md:w-[400px] lg:w-full h-5 md:h-10 lg:h-20 shadow-inherit text-black bg-bgfiel rounded-sm  sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-100  dark:placeholder-gray-400 dark:text-textColor dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-10"
+                            placeholder="أخرى ..
+                ">
 
                     </div>
 
-                    <div class="flex items-center mb-4">
-                        <label for="country-option-2" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                            Germany
-                          </label>
-                        <input id="country-option-2" type="radio" name="countries" value="Germany" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600">
-
-                    </div>
-
-                    <div class="flex items-center mb-4">
-                        <label for="country-option-3" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                            Spain
-                          </label>
-                        <input id="country-option-3" type="radio" name="countries" value="Spain" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:bg-gray-700 dark:border-gray-600">
-
-                    </div>
-
-                    <div class="flex items-center mb-4">
-                        <label for="country-option-4" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                            United Kingdom
-                          </label>
-                        <input id="country-option-4" type="radio" name="countries" value="United Kingdom" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring:blue-300 dark:focus-ring-blue-600 dark:bg-gray-700 dark:border-gray-600">
-
-                    </div>
-
-                    <div class="flex items-center">
-                        <label for="option-disabled" class="block ml-0 text-sm font-medium text-gray-300 dark:text-gray-700">
-                            China (disabled)
-                          </label>
-                        <input id="option-disabled" type="radio" name="countries" value="China" class="w-4 h-4 border-gray-200 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:bg-gray-700 dark:border-gray-600" disabled>
-
-                    </div>
-                    <div class="flex items-center">
-                        <label for="option-disabled" class="block ml-0 text-sm font-medium text-gray-300 dark:text-gray-700">
-                            China (disabled)
-                          </label>
-                        <input id="option-disabled" type="radio" name="countries" value="China" class="w-4 h-4 border-gray-200 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:bg-gray-700 dark:border-gray-600" disabled>
-
-                    </div>
-                    <div class="flex items-center">
-                        <label for="option-disabled" class="block ml-0 text-sm font-medium text-gray-300 dark:text-gray-700">
-                            China (disabled)
-                          </label>
-                        <input id="option-disabled" type="radio" name="countries" value="China" class="w-4 h-4 border-gray-200 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:bg-gray-700 dark:border-gray-600" disabled>
-
-                    </div>
                 </fieldset>
                 <!-- ــــ -->
                 <h1 class="text-right text-sm md:text-sm lg:text-3xl text-fontColor1 mb-3 lg:mb-5  lg:mt-20 "> حدثنا أكثر عن نشاط منشأتك </h1>
-                <input type="text" id="large-input" class="block p-4 md:w-[400px] lg:w-full h-5 md:h-10 lg:h-20 shadow-inner shadow-gray-300 text-gray-700 bg-gray-700 rounded-sm  sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-100  dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-10">
+
+                <textarea id="message" rows="10" class="block p-2.5 w-full h-20 md:h-40 lg:h-auto text-sm text-black bg- rounded-sm shadow-inner shadow-gray-300  focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-7 dark:bg-gray-100 dark:placeholder-gray-400 dark:text-textColor dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-2"
+                    placeholder="حدثنا هنا..."></textarea>
+
                 <!-- ـــــ -->
                 <!-- ـــــ -->
                 <h1 class="text-right text-sm md:text-sm lg:text-3xl text-fontColor1 mb-3 lg:mb-5  lg:mt-20 ">ماهي التقنية؟</h1>
-                <input type="text" id="large-input" class="block p-4 md:w-[400px] lg:w-full h-5 md:h-10 lg:h-20 shadow-inner shadow-gray-300 text-gray-700 bg-gray-700 rounded-sm  sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-100  dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-10">
-
+                <input type="text" id="large-input" class="block text-right p-4 md:w-[400px] lg:w-full h-5 md:h-10 lg:h-20 shadow-inner shadow-gray-300 text-black bg-bgfiel rounded-sm  sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-100  dark:placeholder-gray-400 dark:text-textColor dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-10">
                 <!-- _______ -->
-                <h1 class="text-right text-sm md:text-sm lg:text-3xl text-fontColor1 mb-3 lg:mb-5  lg:mt-20 "> ماهي التقنيات التي تنوي تبنيها من خلال المشروع؟(يمكن اختيارأكثر من إجابة)</h1>
+                <h1 class="text-right text-xs md:text-sm lg:text-3xl text-fontColor1 mb-3 lg:mb-5  lg:mt-20 w-52 md:w-auto ml-[-10px] md:ml-0 "> هل سبق وأن تبنت منشأتك أحد التقنيات؟</h1>
+                <!-- _______ -->
+                <h1 class="text-right text-xs md:text-sm lg:text-3xl text-fontColor1 mb-3 lg:mb-5  lg:mt-20 w-52 md:w-auto ml-[-10px] md:ml-0 "> ماهي التقنيات التي تنوي تبنيها من خلال المشروع؟(يمكن اختيارأكثر من إجابة)</h1>
             </div>
 
             <!-- ______ -->
-            <div class="flex flex-col md:flex-row ml-10 ">
-                <button class=" text-white text-xs md:text-lg lg:text-xl bg-fourthBtn m-2 w-[150px] md:w-[230px] lg:w-[392px] h-[40px] md:h-[60px] lg:h-[77px] rounded-md px-30 ml-0 md:ml-2 lg:ml-[200px] mb-2 lg:mb-0">تسجيل الاستمارة</button>
+            <div class="flex flex-col md:flex-row mr-0 md:mr-40 ">
                 <button class=" text-fourthBtn text-xs md:text-lg lg:text-xl bg-white border border-fourthBtn border-1 m-2 w-[150px] md:w-[230px] lg:w-[392px] h-[40px] md:h-[60px] lg:h-[77px] rounded-md px-30 ml-0 md:ml-0 lg:ml-[0px] mb-5 lg:mb-0">رجوع</button>
+
+                <button class=" text-white text-xs md:text-lg lg:text-xl bg-fourthBtn m-2 w-[150px] md:w-[230px] lg:w-[392px] h-[40px] md:h-[60px] lg:h-[77px] rounded-md px-30 ml-0 md:ml-2 lg:ml-[200px] mb-2 lg:mb-0">تسجيل الاستمارة</button>
             </div>
 
         </form>

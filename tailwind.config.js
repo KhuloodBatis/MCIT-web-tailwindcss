@@ -23,6 +23,7 @@ module.exports = {
                 greenColor: "#01DAE2",
                 dividerColor: "#009ABA",
                 bgfiel: "#0000002B",
+                textColor: "#575756"
             },
             screens: {
                 'xsm': '412px'
